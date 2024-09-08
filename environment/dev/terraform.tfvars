@@ -21,3 +21,13 @@ ssm_public_subnet_1c = "/linustips-vpc/vpc/subnet_public_1c"
 load_balancer_internal = false
 
 load_balancer_type = "application"
+
+##ECS CLUSTER##
+
+nodes_ami = "ami-09d3335e2eaf06692"
+
+node_instance_type = "t3a.large"
+
+node_volume_size = "50"
+
+node_volume_type = "gp3"
